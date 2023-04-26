@@ -34,7 +34,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(250, 18)
+        Me.Label1.Location = New System.Drawing.Point(248, 33)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(258, 40)
         Me.Label1.TabIndex = 25
@@ -44,7 +44,7 @@ Partial Class Form1
         '
         Me.btnSelect.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.btnSelect.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSelect.Location = New System.Drawing.Point(41, 266)
+        Me.btnSelect.Location = New System.Drawing.Point(41, 324)
         Me.btnSelect.Name = "btnSelect"
         Me.btnSelect.Size = New System.Drawing.Size(160, 65)
         Me.btnSelect.TabIndex = 26
@@ -92,7 +92,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(548, 144)
+        Me.Label4.Location = New System.Drawing.Point(153, 105)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(48, 16)
         Me.Label4.TabIndex = 31

@@ -44,7 +44,7 @@ Partial Class Form1
         '
         Me.btnSelect.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.btnSelect.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSelect.Location = New System.Drawing.Point(41, 324)
+        Me.btnSelect.Location = New System.Drawing.Point(50, 279)
         Me.btnSelect.Name = "btnSelect"
         Me.btnSelect.Size = New System.Drawing.Size(160, 65)
         Me.btnSelect.TabIndex = 26

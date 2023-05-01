@@ -4,7 +4,7 @@ Option Strict On
 
 'Name: Capstone 7
 'Purpose: Alt Wheel of Fortune
-'Programmer: Anthony Badillo 4/24/23
+'Programmer: Anthony Badillo & Osscar Garcia 4/24/23
 
 
 Imports System.Data.SqlTypes

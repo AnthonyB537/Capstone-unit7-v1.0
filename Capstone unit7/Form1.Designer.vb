@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnSelect = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -29,6 +30,7 @@ Partial Class Form1
         Me.lblPlayer1 = New System.Windows.Forms.Label()
         Me.lblPlayer2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Label1
@@ -98,6 +100,9 @@ Partial Class Form1
         Me.Label4.TabIndex = 31
         Me.Label4.Text = "Label4"
         '
+        'Timer1
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -124,4 +129,5 @@ Partial Class Form1
     Friend WithEvents lblPlayer1 As Label
     Friend WithEvents lblPlayer2 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents Timer1 As Timer
 End Class

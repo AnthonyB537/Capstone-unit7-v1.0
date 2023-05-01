@@ -119,5 +119,155 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 2.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 3.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 4.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 5.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 6.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 7.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 8.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 9.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 10.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 11.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 12.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 13.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 14.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 15.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 17.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 18.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 19.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 20.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 21.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 22.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 23.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 24.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 25.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart 26.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart 26.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

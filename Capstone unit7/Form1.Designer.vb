@@ -31,6 +31,8 @@ Partial Class Form1
         Me.lblPlayer2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -103,12 +105,21 @@ Partial Class Form1
         'Timer1
         '
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(327, 133)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(229, 103)
+        Me.PictureBox1.TabIndex = 33
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(813, 450)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lblPlayer2)
         Me.Controls.Add(Me.lblPlayer1)
@@ -118,6 +129,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -130,4 +142,5 @@ Partial Class Form1
     Friend WithEvents lblPlayer2 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

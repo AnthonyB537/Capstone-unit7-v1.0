@@ -1,5 +1,6 @@
 ﻿Option Infer Off
 Option Explicit On
+Option Strict On
 
 'Name: Capstone 7
 'Purpose: Alt Wheel of Fortune
@@ -9,26 +10,29 @@ Option Explicit On
 Imports System.Data.SqlTypes
 
 Public Class Form1
-    'Dim Selected As String
+
+    Dim Random As Integer
+    Dim Number2 As Integer
+
+
     Private Sub btnSelect_Click(sender As Object, e As EventArgs) Handles btnSelect.Click
 
-        Dim Value As Integer
-        Value = Int((25 * Rnd() + 1))
+        'Dim Value As Integer
+        'Value = Int((25 * Rnd() + 1))
 
-        If Value = 0 Then
-            SqlMoney = 10000
-        ElseIf Value <= 1 And Value >= 5 Then
-        End If
+        'If Value = 0 Then
+        '    SqlMoney = 10000
+        'ElseIf Value <= 1 And Value >= 5 Then
+        'End If
 
-        Label1.Text = value.ToString
+        'Label1.Text = Value.ToString
 
-        'value = TabIndex
 
-        'For value As Integer = 0 To 24
+        Timer1.Enabled = True
+        Random = CInt((25 * Rnd() + 1))
 
-        'Next
 
-        'lblPlayer1.Text = value.ToString
+
 
     End Sub
 
@@ -91,6 +95,6 @@ Public Class Form1
             PictureBox1.Image = My.Resources.chart_25
         ElseIf Number2 = 300 Then
             PictureBox1.Image = My.Resources.chart_26
-        'End If
+        End If
     End Sub
 End Class
